@@ -6,6 +6,8 @@
 
 </script>
 
+
+<main>
 <Carousel slideCount={data.posts.length} slidesPerPage={2} spacing="16px" loop>
 	<Carousel.Control class="flex justify-between mb-4">
 		<Carousel.PrevTrigger class="btn preset-filled">
@@ -36,3 +38,18 @@
 		</Carousel.Context>
 	</Carousel.IndicatorGroup>
 </Carousel>
+
+</main>
+
+
+<style>
+
+  main{
+    width: 100vw;
+    height: 60vh;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+</style>
